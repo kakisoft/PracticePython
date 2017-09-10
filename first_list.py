@@ -16,3 +16,7 @@ list1  = list(tuple1) # タプルをリストに変換
 tuple2 = tuple(list1) # リストをタプルに変換
 print(list1, tuple2)
 
+## rangeオブジェクトをlistに変換可(0から開始、101で終了、10加算)
+for counter in list(range(0,101,10)):
+    print(counter)
+

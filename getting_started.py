@@ -1,6 +1,7 @@
 """
 複数行コメント
 """
+pass
 print("What's Going ON")
 print(2017, 9, 6)
 print(str(2017) + "年")
@@ -41,3 +42,4 @@ n1 = 10
 print(id(n1)) # 数値や文字列は、イミュータブルなオブジェクト
 n1 = n1 + 5
 print(id(n1)) # ↑と異なる結果を返す
+
