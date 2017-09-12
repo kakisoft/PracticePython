@@ -12,7 +12,7 @@ for num in list1:
 for counter in range(10):
     print(counter)
 
-# renge(1～104) 　
+# renge(100～104) 　
 for counter in range(100, 105):
     print(counter)
 
