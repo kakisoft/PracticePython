@@ -1,5 +1,9 @@
 import random
 
+# 平均(ラムダ式)
+average = lambda *nums: sum(nums) / len(nums)
+print(average(1,2,3,4,5,6)) #=> 3.5
+
 # 平均
 def average(*nums):
     return sum(nums) / len(nums)    

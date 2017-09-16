@@ -4,14 +4,16 @@
 """
 
 #基本操作
+list2 = [num ** 2 for num in range(1, 21, 2)]
+print(list2) # => [1, 9, 25, 49, 81, 121, 169, 225, 289, 361]
+
+#↑と同じ
 list1 = []
 for num in range(1, 21, 2):
     list1.append(num ** 2)
 
 print(list1) # => [1, 9, 25, 49, 81, 121, 169, 225, 289, 361]
 
-list2 = [num ** 2 for num in range(1, 21, 2)]
-print(list2) # => [1, 9, 25, 49, 81, 121, 169, 225, 289, 361]
 
 #リストからリストを生成
 dolls = [1, 5, 9.5, 100] #() と、タプルにしてもOK
