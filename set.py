@@ -6,7 +6,7 @@ print(signal) # => {'青', '黄', '赤'} ※重複しない
 for s in signal:
     print(s)
 
-#リストから集合を作成
+#リストから集合を作成 
 listA = [1,2,3,3,3]
 setA = set(listA)
 print(setA) # => {1, 2, 3}
