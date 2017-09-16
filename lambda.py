@@ -1,4 +1,8 @@
-# lambda 引数1, 引数2, 引数3, ....: 処理　<キーワード引数を使用>
+"""
+lambda 引数1, 引数2, 引数3, ....: 処理
+"""
+
+# キーワード引数を使用
 doll_to_yen = lambda doll, rate=105: doll * rate
 print(doll_to_yen(doll=5)) #=> 525
 
