@@ -1,5 +1,8 @@
 import sys
 
+if input("続行しますか？(y/n)") != "y":
+    sys.exit()
+
 for i, arg in enumerate(sys.argv):
     print("{}:{}".format(i, arg))
 
