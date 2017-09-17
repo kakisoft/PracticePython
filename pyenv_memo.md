@@ -22,7 +22,7 @@ python -V
 
 
 
-エラー発生時の対応
+**エラー発生時の対応**
 ```
 Installing Python-3.6.0...
 WARNING: The Python bz2 extension was not compiled. Missing the bzip2 lib?
@@ -30,7 +30,7 @@ WARNING: The Python readline extension was not compiled. Missing the GNU readlin
 WARNING: The Python sqlite3 extension was not compiled. Missing the SQLite3 lib?
 Installed Python-3.6.0 to /home/uskaki101/.pyenv/versions/3.6.0
 ```
-原因：OpenSSL のライブラリが入ってない。
+原因：OpenSSL のライブラリが入ってない。  
 対処：以下を実行
 ```
 sudo apt-get install libssl-dev
