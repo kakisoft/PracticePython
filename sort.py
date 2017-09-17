@@ -34,7 +34,7 @@ print(names2)
  辞書の要素をソート
 """
 #ラムダ式を使用
-names = {"Taro":55, "Makoto":49, "Akio":30, "Kazuo":32, "Ken":48}
+names = {"Taro":25, "Makoto":49, "Akio":30, "Kazuo":32, "Ken":48}
 for name in sorted(names.items(), key=lambda n:n[0]): #n[0]の要素でソート
     print("ds1:",name[0], name[1])
 
@@ -47,5 +47,6 @@ for name in sorted(names.keys()): #結果は↑と同一
     print("ds3:",name, names[name])
 
 #valueの順にソート
-for name in sorted(names.items(), key=lambda n:n[0]):
+for name in sorted(names.items(), key=lambda n:n[1]):
     print("ds4:",name[0], name[1])
+
