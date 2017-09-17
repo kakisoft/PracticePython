@@ -4,6 +4,9 @@ import os, sys
 FILE_NAME_FULL_PATH_1 = "resources/sample1.txt"
 FILE_NAME_FULL_PATH_2 = "resources/sample2.txt"
 FILE_NAME_FULL_PATH_3 = "resources/sample3.txt"
+FILE_NAME_FULL_PATH_4 = "resources/sample4.txt"  # UTF_8で保存したファイル
+FILE_NAME_FULL_PATH_5 = "resources/sample5.txt"  # shift_jisで保存したファイル
+ENC = "shift_jis"
 
 """
 ファイル存在チェック
@@ -77,3 +80,14 @@ with open(FILE_NAME_FULL_PATH_2, "a", encoding="utf_8") as file:
 weekdays = [day + "曜日" + "\n" for day in "月火水木金土日"]
 with open(FILE_NAME_FULL_PATH_3, "w", encoding="utf_8") as file:
     file.writelines(weekdays)
+
+
+"""
+エンコーディング
+"""
+with open(FILE_NAME_FULL_PATH_4, "r", encoding="utf_8") as in_f:
+    with open(FILE_NAME_FULL_PATH_5, "w", encoding=ENC) as out_f:
+        for str in in_f:
+            out_f.write(str)
+
+print("aa")

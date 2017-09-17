@@ -1,0 +1,4 @@
+※SJISで保存したファイル※
+1:Shift_JIS
+2:EUC_JP
+3:JIS
