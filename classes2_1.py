@@ -30,3 +30,8 @@ class Customer:
     def std_weight(self):
         return Customer.bmi * (self.__height / 100) ** 2
 
+
+# 外部から参照される場合、コールされない。
+if __name__ == "__main__":
+    hanako = Customer(102, "山田花子", 179)
+    print("{} 標準体重:{:.2f}kg".format(hanako.name, hanako.std_weight()))
