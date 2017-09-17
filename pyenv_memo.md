@@ -16,7 +16,7 @@ pyenv global 3.6.1
 バージョン確認
 ```
 python -V
-``
+```
 
 
 
