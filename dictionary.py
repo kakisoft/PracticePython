@@ -3,6 +3,7 @@ print(colors)
 
 print(colors["red"]) #=> 赤
 print(len(colors))   #=> 3
+print(colors.get("purple", "登録がありません")) #keyが辞書にあれば対応する値を、無ければdefaultを返す。 
 
 colors["greed"] = "緑"  # 追加
 del colors["red"]       # 削除
