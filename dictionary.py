@@ -34,6 +34,13 @@ print(seasons1) #=> {'Spring': '春', 'Summer': '夏', 'Autumn': '秋', 'Winter'
 seasons2 = {j:e for (e,j) in seasons1.items() }
 print(seasons2) #=> {'春': 'Spring', '夏': 'Summer', '秋': 'Autumn', '冬': 'Winter'}
 
-#こういう使い方もあった。
+#リストからのキャスト
+fruits_list = [["apple", "リンゴ"],['orange', "オレンジ"],['grape', "ぶどう"]]
+fruits_dict = dict(fruits_list)
+print(fruits_dict) #=> {'apple': 'リンゴ', 'orange': 'オレンジ', 'grape': 'ぶどう'}
+
+#よくわからないキャスト。
 direction = dict(East="東", West="西", South="南", North="北")
-print(direction)
+print(direction) #=> {'East': '東', 'West': '西', 'South': '南', 'North': '北'}
+
+
