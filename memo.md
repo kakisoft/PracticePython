@@ -55,6 +55,11 @@ OS標準の改行コードは、osモジュールの linesep
 @app.route('/')とか、関数の上についてる「@」が付いたの。  
 既存関数の処理の前後に、処理を付け加えることができる。　  
 　  
+## HTTPパッケージ
+urllibが標準であるけど、requestsが使い勝手がよくて人気あるみたい。
+```
+pip install requests
+```
 　  
 dict.keys() を誤って、
 dict.keys とコーディングしたところ、エラーは発生せず、'''<built-in method keys of dict object at 0x024E0CF0>'''
