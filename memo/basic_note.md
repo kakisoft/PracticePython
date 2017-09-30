@@ -61,6 +61,11 @@ urllibが標準であるけど、requestsが使い勝手がよくて人気ある
 pip install requests
 ```
 　  
+## 正規表現
+http://ism1000ch.hatenablog.com/entry/2014/03/15/154533
+　  
+　  
+　  
 dict.keys() を誤って、
 dict.keys とコーディングしたところ、エラーは発生せず、'''<built-in method keys of dict object at 0x024E0CF0>'''
 というメッセージが返ってきた。
