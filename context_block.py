@@ -3,10 +3,11 @@ __enter__ と __exit__ を実装したクラスは コンテキストマネー�
 with 文に入った時に __enter__ メソッドが呼ばれ、with 文を抜けるときに __exit__ メソッドが呼ばれる。
 """
 class TraceContextManager:
-    # 
+    # withに入った時にコール
     def __enter__(self):
         print("__enter__  called")
 
+    # withを抜けた時にコール
     def __exit__(self,exc_type, exc_value, traceback):
         print("__exit__  called")
 
