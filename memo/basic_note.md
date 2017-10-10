@@ -69,3 +69,15 @@ http://ism1000ch.hatenablog.com/entry/2014/03/15/154533
 dict.keys() を誤って、
 dict.keys とコーディングしたところ、エラーは発生せず、'''<built-in method keys of dict object at 0x024E0CF0>'''
 というメッセージが返ってきた。
+
+# 引数
+
+### *arg 
+タプルで引数を受け取る。
+
+### **kwarg
+キーワード引数を辞書で受け取る。  
+keyword argument（キーワードとなる引数）
+
+### (*args, **kwargs)
+どんな引数でも受け取れる
