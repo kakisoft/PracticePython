@@ -63,12 +63,6 @@ pip install requests
 　  
 ## 正規表現
 http://ism1000ch.hatenablog.com/entry/2014/03/15/154533
-　  
-　  
-　  
-dict.keys() を誤って、
-dict.keys とコーディングしたところ、エラーは発生せず、'''<built-in method keys of dict object at 0x024E0CF0>'''
-というメッセージが返ってきた。
 
 # 引数
 
@@ -81,3 +75,12 @@ keyword argument（キーワードとなる引数）
 
 ### (*args, **kwargs)
 どんな引数でも受け取れる
+　  
+　  
+　  
+　  
+　  
+＜雑記＞　  
+dict.keys() を誤って、
+dict.keys とコーディングしたところ、エラーは発生せず、'''<built-in method keys of dict object at 0x024E0CF0>'''
+というメッセージが返ってきた。
