@@ -80,7 +80,7 @@ keyword argument（キーワードとなる引数）
 　  
 　  
 　  
-＜雑記＞　  
+＜雑記＞  
 dict.keys() を誤って、
 dict.keys とコーディングしたところ、エラーは発生せず、'''<built-in method keys of dict object at 0x024E0CF0>'''
 というメッセージが返ってきた。
