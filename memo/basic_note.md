@@ -66,10 +66,10 @@ http://ism1000ch.hatenablog.com/entry/2014/03/15/154533
 
 # 引数
 
-### *arg 
+### *args 
 タプルで引数を受け取る。
 
-### **kwarg
+### **kwargs
 キーワード引数を辞書で受け取る。  
 keyword argument（キーワードとなる引数）
 
