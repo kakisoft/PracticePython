@@ -18,6 +18,21 @@ hello1()
 # hello2
 # exit2
 
+
+def abs_decorator(func):
+    def wrap(a, b):
+        a = abs(a)
+        b = abs(b)
+        return abs(func(a,b))
+    return wrap
+
+@abs_decorator
+def sub(a, b):
+    return a - b
+
+print(sub(-5,-3)) #=> 2
+
+
 #========================================
 #　デコレータ構文を使わない場合、こうなる。　
 #========================================

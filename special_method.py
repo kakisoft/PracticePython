@@ -3,9 +3,7 @@ class SpecialMethod():
     def __init__(self,value):
         self.value = int(value)
 
-    #====================================
-    # 以下、演算子オーバーロード用の機能？
-    #====================================
+    #=====< 以下、演算子オーバーロード用の機能？ >=====
     
     # 加算する時にコールされる
     def __add__(self, _self):
@@ -36,3 +34,13 @@ print(tuple(sp_result2))  #=> (1, 2, 3)
 print(set(sp_result2))    #=> {1, 2, 3}
 
 print(bool(sp_result2)) #=> True
+
+
+#=========================
+#      ドキュメント
+#=========================
+def doc_sample(message):
+    """__doc__ message"""
+    print(message)
+
+print(doc_sample.__doc__) #=> __doc__ message
