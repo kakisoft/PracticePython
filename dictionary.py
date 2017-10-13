@@ -43,5 +43,3 @@ print(fruits_dict) #=> {'apple': 'リンゴ', 'orange': 'オレンジ', 'grape':
 #よくわからないキャスト。
 direction = dict(East="東", West="西", South="南", North="北")
 print(direction) #=> {'East': '東', 'West': '西', 'South': '南', 'North': '北'}
-
-
