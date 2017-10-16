@@ -12,7 +12,7 @@ ENC = "shift_jis"
 ファイル存在チェック
 """
 if not os.path.exists(FILE_NAME_FULL_PATH_1):
-    print("File not exist")
+    print("File not EXIST")
     sys.exit()
 
 """
