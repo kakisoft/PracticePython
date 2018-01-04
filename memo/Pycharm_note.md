@@ -8,7 +8,7 @@
 
 ### Pycham 外観設定
 
-＜フォント設定＞
+＜フォント設定＞  
 File→Setting→Editor→Font
 フォントスタイルとサイズを変更。
 
