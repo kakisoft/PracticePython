@@ -31,3 +31,11 @@ data = json.load(f)
 print(data)
 ```
 
+## 旧記法
+```
+# coding: utf-8
+
+Python2 までは、ソースに日本語が含まれていた場合、１行目か2行目に↑の
+奇術が必要だった。Python3からは不要。
+```
+
