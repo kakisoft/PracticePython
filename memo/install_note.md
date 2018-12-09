@@ -9,7 +9,7 @@ choco install python
 
 
 
-# apt（ubuntu）
+# apt（ubuntu 16）
 Javaがインストールされていない場合、インストールしておきます。
 ```
 sudo add-apt-repository ppa:webupd8team/java
