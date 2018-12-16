@@ -5,10 +5,12 @@ CREATE_FILE_FULL_PATH_1 = "resources/sample11_after_.csv"
 
 
 with open(READ_FILE_FULL_PATH_1,'r', newline='', encoding="utf-8") as csvfile:
-    # spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-    # for row in spamreader:
-    #     print(', '.join(row))
-
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+        # print(', '.join(row))
+        # print(row)          # 1行づつ取得できる
+        # print(row[0])          # 1行づつ取得できる
+        pass
 
     # spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     # for row in spamreader:
