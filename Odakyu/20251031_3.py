@@ -4,6 +4,11 @@ class Point:
         self.x = x
         self.y = y
 
+
+# 例: [], [Point(0,0)], [Point(1,2)] に変えると各caseにマッチが切り替わる
+points = [Point(0, 2), Point(0, 8)]
+
+
 match points:
     case []:
         print("座標が存在しない")
