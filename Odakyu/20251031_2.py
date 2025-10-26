@@ -1,4 +1,6 @@
 class Point:
+    __match_args__ = ("x", "y")
+
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -15,3 +17,5 @@ def where_is(point):
             print("それ以外のどこか")
         case _:
             print("座標ではない")
+
+where_is(Point(1, 0))
