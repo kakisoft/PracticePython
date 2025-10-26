@@ -5,8 +5,11 @@ class Point:
         self.y = y
 
 
-# 例: [], [Point(0,0)], [Point(1,2)] に変えると各caseにマッチが切り替わる
-points = [Point(0, 2), Point(0, 8)]
+## 例: [], [Point(0,0)], [Point(1,1)], [Point(1,2)] に変えると出力結果が変わる
+# points = [Point(0, 0)]
+# points = [Point(1, 0)]
+points = [Point(1, 1)]
+# points = [Point(0, 2), Point(0, 8)]
 
 
 match points:
@@ -20,3 +23,5 @@ match points:
         print(f"Y軸の {y1}, {y2} に2つの座標")
     case _:
         print("それ以外のどこか")
+
+
