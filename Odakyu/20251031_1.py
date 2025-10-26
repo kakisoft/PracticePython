@@ -1,5 +1,6 @@
 point = (1, 0)
 
+# point は (x, y) のタプル
 match point:
     case (0, 0):
         print("Origin")
