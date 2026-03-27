@@ -1,0 +1,1 @@
+https://docs.python.org/ja/3.13/tutorial/modules.html#importing-from-a-package
